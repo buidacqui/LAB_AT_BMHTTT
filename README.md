@@ -1,16 +1,5 @@
 # LAB3 — Nhận diện và ứng phó các mối đe dọa đến an toàn thông tin
 
-## 1. Thông tin sinh viên
-
-| Mục | Nội dung |
-|---|---|
-| Họ và tên | [ĐIỀN HỌ TÊN] |
-| MSSV | [ĐIỀN MSSV] |
-| Mã lớp học phần | [ĐIỀN MÃ LỚP] |
-| Tên lab | Lab 3 — Nhận diện và ứng phó các mối đe dọa đến an toàn thông tin |
-| Link video (nếu lớp yêu cầu) | [ĐIỀN LINK HOẶC "Không yêu cầu"] |
-| Ngày thực hiện | [ĐIỀN NGÀY] |
-
 ## 2. Phiên bản môi trường thực hành
 
 | Thành phần | Phiên bản |
