@@ -3,9 +3,6 @@
 Môn: **An toàn hệ thống thông tin**
 Nội dung: thực hành Nmap trong mạng ảo VirtualBox Host-Only (Kali Linux → Metasploitable 2) và viết báo cáo kỹ thuật có bằng chứng.
 
-> ⚠️ **Phạm vi pháp lý và đạo đức:** Chỉ quét các máy ảo do chính mình dựng trong mạng Host-Only `192.168.56.0/24`. Không quét IP/tên miền/mạng bên ngoài khi chưa được ủy quyền. Toàn bộ nội dung chỉ phục vụ học tập và nghiên cứu.
-
----
 
 ## 1. Nội dung repo
 
