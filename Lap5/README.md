@@ -1,4 +1,4 @@
-# Lab 3 – Thiết lập mô hình tường lửa pfSense
+# Lab 5 – Thiết lập mô hình tường lửa pfSense
 
 Báo cáo thực hành môn **An toàn Hệ thống thông tin**: dựng mô hình mạng có tường lửa **pfSense CE 2.7.2** bảo vệ vùng LAN và DMZ, sau đó kiểm thử các tình huống firewall trên môi trường ảo hóa **Oracle VirtualBox**.
 
