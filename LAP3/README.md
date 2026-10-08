@@ -67,8 +67,6 @@ Ngoài ra báo cáo trả lời 20 câu hỏi (khái niệm, EICAR, brute force/
 
 ## Kết quả PASS/FAIL
 
-> Điền theo kết quả thực tế của em sau khi thực hành.
-
 | TH | Tiêu chí PASS (rút gọn) | Kết quả | Ghi chú |
 | --- | --- | --- | --- |
 | TH1 | Risk register ≥ 5 tài sản/nguy cơ; phân loại đủ 5 tình huống kèm giải thích | PASS / FAIL | ........ |
@@ -93,32 +91,5 @@ Ngoài ra báo cáo trả lời 20 câu hỏi (khái niệm, EICAR, brute force/
 | Không thấy event 4624/4625 của `lab3user` | Chưa bật audit Logon hoặc lọc sai thời gian | Chạy lại `auditpol`, tăng `StartTime`, lọc `Message` chứa `lab3user` |
 | ........ | ........ | ........ |
 
-## Cấu trúc thư mục
 
-```
-LAB3/
-├── README.md
-├── MaLop-LAB3_MSSV-HoTen.docx     # Báo cáo (Word)
-├── evidence/                      # Output/log đã làm sạch (txt, csv)
-│   └── evidence_sha256.csv        # SHA-256 của toàn bộ bằng chứng
-└── images/                        # Ảnh chụp từ VM (H1 … H11)
-```
 
-> Điều chỉnh cho khớp với các file em thực sự tải lên.
-
-## Lưu ý để giảng viên kiểm tra / chạy lại
-
-- Mọi ảnh chụp lấy trực tiếp từ VM của em; output và log khớp timestamp của bài. Hash của từng file bằng chứng nằm trong `evidence/evidence_sha256.csv`.
-- **Không** đưa vào repo: installer, file thực thi Sysinternals/Wireshark/Python, tệp bị Defender quarantine.
-- **Không** đưa vào repo: mật khẩu, token/API key, cookie/session, dữ liệu cá nhân, email thật, log chưa làm sạch hoặc thông tin định danh hệ thống thật. Mật khẩu của `lab3user` chỉ dùng trong lab và không được ghi lại.
-- Không chỉnh `local_load_test.py` (hard-code `127.0.0.1:8080`); không thực hiện mail bomb, DDoS, spoofing hay MITM chủ động ngoài VM lab.
-- Để chạy lại: revert VM về snapshot `LAB3_CLEAN_20260914`, làm lại từ bước dựng môi trường và baseline, sau đó thực hiện lần lượt TH1 → TH7 và cleanup theo báo cáo.
-- Repository `LAB_AT_BMHTTT` ở chế độ Public; đã commit/push đầy đủ và kiểm tra bằng cửa sổ trình duyệt không đăng nhập trước khi nộp.
-
-## Tài liệu tham khảo
-
-- Microsoft Sysinternals – Sysmon, Autoruns, Process Explorer – https://learn.microsoft.com/sysinternals/
-- Wireshark User's Guide – https://www.wireshark.org/docs/wsug_html/
-- Microsoft Learn – Validate Microsoft Defender Antivirus with the EICAR test file – https://learn.microsoft.com/defender-endpoint/validate-antimalware
-- Microsoft Learn – Audit Logon events 4624, 4625, 4648
-- IETF RFC 5737 (TEST-NET) và RFC 2606 (tên miền dành riêng)
