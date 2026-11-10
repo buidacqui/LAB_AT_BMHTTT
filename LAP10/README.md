@@ -15,9 +15,9 @@
 
 ### Phần 1 – Chuẩn bị project
 
-- Tạo project Maven `LAB1_MaHoaCoDien` với package `week_01`.
-- Thiết kế JFrame bằng NetBeans GUI Builder.
-- Tạo lớp `FileTextIO` để đọc và lưu nội dung tệp `.txt` bằng UTF-8.
+ Tạo project Maven `LAB1_MaHoaCoDien` với package `week_01`.
+ Thiết kế JFrame bằng NetBeans GUI Builder.
+ Tạo lớp `FileTextIO` để đọc và lưu nội dung tệp `.txt` bằng UTF-8.
 
 ### Phần 2 – Sáu thuật toán mật mã cổ điển
 
@@ -34,10 +34,10 @@ Mỗi thuật toán có form riêng hỗ trợ **Encrypt**, **Decrypt**, **Open 
 
 ### Phần 3 – Tổng hợp và lưu lịch sử SQL Server
 
-- Form `frm_TongHop` cho phép chọn một trong sáu thuật toán qua Combo Box.
-- Kết nối SQL Server qua JDBC (`DbConfig`).
-- Ghi lịch sử **ENCRYPT/DECRYPT** vào bảng `dbo.history` (`HistoryDao`).
-- Hiển thị lịch sử trong `frm_LichSu` bằng JTable; kiểm tra dữ liệu bằng SSMS.
+ Form `frm_TongHop` cho phép chọn một trong sáu thuật toán qua Combo Box.
+ Kết nối SQL Server qua JDBC (`DbConfig`).
+ Ghi lịch sử **ENCRYPT/DECRYPT** vào bảng `dbo.history` (`HistoryDao`).
+ Hiển thị lịch sử trong `frm_LichSu` bằng JTable; kiểm tra dữ liệu bằng SSMS.
 
 Thông số kết nối theo LAB:
 
@@ -52,9 +52,9 @@ Thông số kết nối theo LAB:
 
 ### Phần 4 – Phân tích mật mã cổ điển
 
-- **Brute Force Caesar:** thử 26 khóa. Ví dụ `KHOOR` → khóa `3` → `HELLO`.
-- **Frequency Analysis:** đếm tần suất xuất hiện các chữ cái trong bản mã.
-- **Known Plaintext (Vigenère):** từ `HELLO` và `RIJVS` suy ra dãy khóa `KEYKE`, phù hợp với khóa `KEY` được lặp.
+ **Brute Force Caesar:** thử 26 khóa. Ví dụ `KHOOR` → khóa `3` → `HELLO`.
+ **Frequency Analysis:** đếm tần suất xuất hiện các chữ cái trong bản mã.
+ **Known Plaintext (Vigenère):** từ `HELLO` và `RIJVS` suy ra dãy khóa `KEYKE`, phù hợp với khóa `KEY` được lặp.
 
 ### Phần 5 – Menu chính
 
