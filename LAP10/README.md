@@ -16,7 +16,9 @@
 ### Phần 1 – Chuẩn bị project
 
  Tạo project Maven `LAB1_MaHoaCoDien` với package `week_01`.
+ 
  Thiết kế JFrame bằng NetBeans GUI Builder.
+ 
  Tạo lớp `FileTextIO` để đọc và lưu nội dung tệp `.txt` bằng UTF-8.
 
 ### Phần 2 – Sáu thuật toán mật mã cổ điển
