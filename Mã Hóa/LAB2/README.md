@@ -1,8 +1,5 @@
 # LAB 2 – MÃ HÓA ĐỐI XỨNG HIỆN ĐẠI
 
-> Link youtube quá trình thực hiện bài lab:
-> https://youtu.be/jRmEuxuLssk
-
 ## Thông tin sinh viên
 
 | Mục | Nội dung |
